@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:dialogTitle="Select color"
+        android:key="@string/key_color"
+        android:entries="@array/color_name"
+        android:entryValues="@array/color_value"
+        android:summary="Choose a background"
+        android:title="Background Color"/>
+    <EditTextPreference
+        android:id="@+id/text_number"
+        android:dialogTitle="Enter a text"
+        android:key="textnumber"
+        android:title="Number" />
+
+</PreferenceScreen>
